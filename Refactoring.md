@@ -9,3 +9,8 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+-  I chose to modify/refactor the code the way i did because it is more readable and efficient. By using the ternary operator and removing an unnecessary if block the code becomes more compact, allowing for easier understanding. Additionally, it allows for fewer lines of code to be used, making it more maintainable in the future.
+
+
+- Also i introduced a .env file to the because it can be beneficial as it allows for better code organization and for the values to be updated easily without having to change them in the code and most importantly it makes the code more portable and easier to maintain since variables stored in the file can be accessed in all of our application envrionments and can be easily changed.
+
